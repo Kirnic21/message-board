@@ -1,0 +1,6 @@
+extends layout
+
+block content
+    each val in title
+      h1= val.text
+      h2= "By "+val.user
